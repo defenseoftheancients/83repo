@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My HTML Template</title>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <meta name="description"
+        content="Celebrate International Women's Day with IS Team! Honoring the achievements and strength of women in our team and beyond. #IWD #EmpowerWomen">
+
+    <title>IS Woman 8-3</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2324/2324510.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
     <style>
         body {
             background-color: #db9393;
@@ -37,72 +47,83 @@
             margin-left: 40%;
             text-shadow: 2px 2px #AF8D87;
         }
+
         .madeby {
             font-size: 35px;
         }
 
         @keyframes scroll {
-             0% {
-                 transform: translateX(0);
+            0% {
+                transform: translateX(0);
             }
-             100% {
-                 transform: translateX(calc(-250px * 7));
+
+            100% {
+                transform: translateX(calc(-250px * 7));
             }
         }
-         .slider {
-             background: white;
-             box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-             height: 100px;
-             margin: 0 auto;
-             overflow: hidden;
-             position: absolute;
-             width: 960px;
-             bottom: 0;
-             left: 50%;
-             transform: translate(-50%, 0);
-             height: 150px;
-             opacity: 0.85;
-             border-radius: 20px;
+
+        .slider {
+            background: white;
+            box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+            height: 100px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: absolute;
+            width: 960px;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+            height: 150px;
+            opacity: 0.85;
+            border-radius: 20px;
         }
-         .slider::before, .slider::after {
-             background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-             content: "";
-             height: inherit;
-             position: absolute;
-             width: 200px;
-             z-index: 2;
+
+        .slider::before,
+        .slider::after {
+            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+            content: "";
+            height: inherit;
+            position: absolute;
+            width: 200px;
+            z-index: 2;
         }
-         .slider::after {
-             right: 0;
-             top: 0;
-             transform: rotateZ(180deg);
+
+        .slider::after {
+            right: 0;
+            top: 0;
+            transform: rotateZ(180deg);
         }
-         .slider::before {
-             left: 0;
-             top: 0;
+
+        .slider::before {
+            left: 0;
+            top: 0;
         }
-         .slider .slide-track {
-             animation: scroll 40s linear infinite;
-             display: flex;
-             width: calc(250px * 14);
-             align-items: center;
-             height: inherit;
+
+        .slider .slide-track {
+            animation: scroll 40s linear infinite;
+            display: flex;
+            width: calc(250px * 14);
+            align-items: center;
+            height: inherit;
         }
-         .slider .slide {
-             height: inherit;
-             width: 250px;
-             display: flex;
-             flex-direction: column;
-            justify-content: center;  /* Centering y-axis */
-            align-items :center; /* Centering x-axis */
+
+        .slider .slide {
+            height: inherit;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* Centering y-axis */
+            align-items: center;
+            /* Centering x-axis */
         }
+
         .slide {
             img {
                 object-fit: contain;
                 height: 100px;
             }
         }
- 
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -113,7 +134,7 @@
 <body>
     <div class="container">
         <p class="madeby">IS - DEV</p>
-        
+
         <svg width="100%" height="100%" viewBox="0 0 1280 800" version="1.1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
             style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
@@ -487,14 +508,15 @@
 
             <g id="is_3" transform="matrix(1,0,0,1,20,0)">
                 <g>
-                     <path d="M500,250 L500,400" style="fill:none;stroke:rgb(172,29,21);stroke-width:20px;stroke-linecap:square;stroke-miterlimit:1.5;" />
+                    <path d="M500,250 L500,400"
+                        style="fill:none;stroke:rgb(172,29,21);stroke-width:20px;stroke-linecap:square;stroke-miterlimit:1.5;" />
                 </g>
-               
-                 <g transform="translate(20, 10) rotate(-15,550,315)">
+
+                <g transform="translate(20, 10) rotate(-15,550,315)">
                     <path d="M550,250 
                              C590,240 590,300 550,310 
-                             C510,320 510,370 550,380" 
-                          style="fill:none;stroke:rgb(130,51,51);stroke-width:20px;stroke-linecap:square;stroke-miterlimit:1.5;" />
+                             C510,320 510,370 550,380"
+                        style="fill:none;stroke:rgb(130,51,51);stroke-width:20px;stroke-linecap:square;stroke-miterlimit:1.5;" />
                 </g>
 
             </g>
@@ -675,50 +697,50 @@
                 <img src="./phuong.PNG" height="100" width="250" alt="" />
             </div>
         </div>
-   </div>
-  
+    </div>
+
     <script>
-        var where = $("#where"), 
-            there1 = $("#there_1"), 
-            is1 = $("#is_1"), 
+        var where = $("#where"),
+            there1 = $("#there_1"),
+            is1 = $("#is_1"),
             a = $("#a"),
             is3 = $("#is_3"),
             woman = $("#woman"),
-            there2 = $("#there_2"), 
-            is2 = $("#is_2"), 
-            magic = $("#magic"), 
-            plant = $("#plants"), 
-            star1 = $("#stars_1"), 
-            star2 = $("#stars_2"), 
+            there2 = $("#there_2"),
+            is2 = $("#is_2"),
+            magic = $("#magic"),
+            plant = $("#plants"),
+            star1 = $("#stars_1"),
+            star2 = $("#stars_2"),
             star3 = $("#stars_3");
         var delay = .3;
         var delta = 2;
 
         function mainScene() {
             var tl = gsap.timeline();
-            tl.set([plant, where, there1, is1, a, is3, woman, there2, is2, magic, star1, star2, star3, "p"], {autoAlpha:0}); 
+            tl.set([plant, where, there1, is1, a, is3, woman, there2, is2, magic, star1, star2, star3, "p"], { autoAlpha: 0 });
             tl.add("start")
-              .from(plant, {duration: 1, delay: 0.5, autoAlpha:0, ease: "none"})
-              .to("p", {duration: 1, autoAlpha:1, ease: "none"})
-              .from([where, there1, is1, a], {duration: delay, autoAlpha:0, ease: "none", stagger: delay})
-              .to(is3, {duration: 1.5, autoAlpha:1, ease: "none", x: 0, y:-5})
-              .to(woman, {duration: 1.5, autoAlpha:1, ease: "none", x: 200, y:-20})
-              .from([there2, is2], {duration: delay, autoAlpha:0, ease: "none", stagger: delay})
-              .to(magic, {duration: 1, autoAlpha:1, ease: "none", x: 20, y:5})
-              .to(star1, {duration: 1.5, autoAlpha:1, repeat: -1, ease: "none", rotation: 1, yoyo: true})
-              .to(star2, {duration: 2, autoAlpha:1, repeat: -1, ease: "none", rotation: 5, yoyo: true})
-              .to(star3, {duration: 2.5, autoAlpha:1, repeat: -1, ease: "none", rotation: -2, yoyo: true});
+                .from(plant, { duration: 1, delay: 0.5, autoAlpha: 0, ease: "none" })
+                .to("p", { duration: 1, autoAlpha: 1, ease: "none" })
+                .from([where, there1, is1, a], { duration: delay, autoAlpha: 0, ease: "none", stagger: delay })
+                .to(is3, { duration: 1.5, autoAlpha: 1, ease: "none", x: 0, y: -5 })
+                .to(woman, { duration: 1.5, autoAlpha: 1, ease: "none", x: 200, y: -20 })
+                .from([there2, is2], { duration: delay, autoAlpha: 0, ease: "none", stagger: delay })
+                .to(magic, { duration: 1, autoAlpha: 1, ease: "none", x: 20, y: 5 })
+                .to(star1, { duration: 1.5, autoAlpha: 1, repeat: -1, ease: "none", rotation: 1, yoyo: true })
+                .to(star2, { duration: 2, autoAlpha: 1, repeat: -1, ease: "none", rotation: 5, yoyo: true })
+                .to(star3, { duration: 2.5, autoAlpha: 1, repeat: -1, ease: "none", rotation: -2, yoyo: true });
         }
 
         var master = gsap.timeline();
         master.add(mainScene(), "mainScene");
 
-       
+
     </script>
     <script>
-    
-        $(function() {
-            TweenMax.to("body", 20, {backgroundPositionY: -100, repeat: -1, ease: Power0.easeNone});
+
+        $(function () {
+            TweenMax.to("body", 20, { backgroundPositionY: -100, repeat: -1, ease: Power0.easeNone });
         });
     </script>
 </body>
