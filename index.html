@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Celebrate International Women's Day with IS Team! Honoring the achievements and strength of women in our team and beyond. #IWD #EmpowerWomen">
-    <title>IS Woman 8-3</title>
+    <title>Xuân Trang 8-3</title>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2324/2324510.png">
@@ -134,7 +134,7 @@
 
 <body>
     <div class="container">
-        <p class="madeby">IS - DEV</p>
+        <p class="madeby" style="font-size: 65px;">Xuân Trang</p>
 
         <svg width="100%" height="100%" viewBox="0 0 1280 800" version="1.1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
@@ -507,7 +507,7 @@
                     style="fill:none;stroke:white;stroke-width:9.5px;stroke-linecap:square;stroke-miterlimit:1.5;" />
             </g>
 
-            <g id="is_3" transform="matrix(1,0,0,1,20,0)">
+            <!-- <g id="is_3" transform="matrix(1,0,0,1,20,0)" style="display: none;">
                 <g>
                     <path d="M500,250 L500,400"
                         style="fill:none;stroke:rgb(172,29,21);stroke-width:20px;stroke-linecap:square;stroke-miterlimit:1.5;" />
@@ -520,9 +520,9 @@
                         style="fill:none;stroke:rgb(130,51,51);stroke-width:20px;stroke-linecap:square;stroke-miterlimit:1.5;" />
                 </g>
 
-            </g>
+            </g> -->
 
-            <g id="woman" transform="matrix(1,0,0,1,230,-25.6631)">
+            <g id="woman" transform="matrix(1,0,0,1,200,-25.6631)">
                 <g id="w" transform="matrix(1.17792,0,0,0.904456,-46.248,51.7123)">
                     <path d="M416.515,275.648L434.762,413.454L460.389,341.666L478.67,410.311L502.273,261.336"
                         style="fill:none;stroke:rgb(172,29,21);stroke-width:20px;stroke-linecap:square;stroke-miterlimit:1.5;" />
@@ -680,37 +680,28 @@
                 
             </div>
             <div class="slide">
-                <img src="./chi.PNG" height="100" width="250" alt="" />
+                <img src="./1-rm.png" height="100" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="./son.PNG" height="100" width="250" alt="" />
+                <img src="./2-rm.png" height="100" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="./truc.PNG" height="100" width="250" alt="" />
+                <img src="./3-rm.png" height="100" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="./nhi.PNG" height="100" width="250" alt="" />
+                <img src="./4-rm.png" height="100" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="./linh.PNG" height="100" width="250" alt="" />
+                <img src="./5-rm.png" height="100" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="./hang.PNG" height="100" width="250" alt="" />
+                <img src="./6-rm.png" height="100" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="./ha.PNG" height="100" width="250" alt="" />
+                <img src="./7-rm.png" height="100" width="250" alt="" />
             </div>
             <div class="slide">
-                <img src="./la.PNG" height="100" width="250" alt="" />
-            </div>
-            <div class="slide">
-                <img src="./huong.PNG" height="100" width="250" alt="" />
-            </div>
-            <div class="slide">
-                <img src="./phuong.PNG" height="100" width="250" alt="" />
-            </div>
-            <div class="slide">
-                <img src="./hien.PNG" height="100" width="250" alt="" />
+                <img src="./8-rm.png" height="100" width="250" alt="" />
             </div>
             <div class="slide tmp">
             </div>
@@ -722,7 +713,7 @@
             there1 = $("#there_1"),
             is1 = $("#is_1"),
             a = $("#a"),
-            is3 = $("#is_3"),
+            // is3 = $("#is_3"),
             woman = $("#woman"),
             there2 = $("#there_2"),
             is2 = $("#is_2"),
@@ -736,13 +727,13 @@
 
         function mainScene() {
             var tl = gsap.timeline();
-            tl.set([plant, where, there1, is1, a, is3, woman, there2, is2, magic, star1, star2, star3, "p"], { autoAlpha: 0 });
+            tl.set([plant, where, there1, is1, a, woman, there2, is2, magic, star1, star2, star3, "p"], { autoAlpha: 0 });
             tl.add("start")
                 .from(plant, { duration: 1, delay: 0.5, autoAlpha: 0, ease: "none" })
                 .to("p", { duration: 1, autoAlpha: 1, ease: "none" })
                 .from([where, there1, is1, a], { duration: delay, autoAlpha: 0, ease: "none", stagger: delay })
-                .to(is3, { duration: 1.5, autoAlpha: 1, ease: "none", x: 0, y: -5 })
-                .to(woman, { duration: 1.5, autoAlpha: 1, ease: "none", x: 200, y: -20 })
+                // .to(is3, { duration: 1.5, autoAlpha: 1, ease: "none", x: 0, y: -5 })
+                .to(woman, { duration: 1.5, autoAlpha: 1, ease: "none", x: 100, y: -20 })
                 .from([there2, is2], { duration: delay, autoAlpha: 0, ease: "none", stagger: delay })
                 .to(magic, { duration: 1, autoAlpha: 1, ease: "none", x: 20, y: 5 })
                 .to(star1, { duration: 1.5, autoAlpha: 1, repeat: -1, ease: "none", rotation: 1, yoyo: true })
