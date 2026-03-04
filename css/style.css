@@ -1,0 +1,107 @@
+.content {
+  position: relative;
+  z-index: 3;
+}
+
+#no {
+  position: absolute;
+  display: inline-block;
+  left: 35%;
+  top: 40vh;
+  -webkit-transition: all 0.1s ease-out;
+}
+
+#yes {
+  position: absolute;
+  display: inline-block;
+  left: 70%;
+  top: 40vh;
+  -webkit-transition: all 0.3s ease-out;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: 9999; */
+  background-color: #db9393;
+  background-image: url(https://pixabay.com/static/uploads/photo/2015/02/21/09/57/heart-644091_960_720.png);
+  text-align: center;
+  overflow-y: auto;
+}
+
+.swal2-popup {
+  background: rgba(255, 255, 255, 0.25) !important;
+  backdrop-filter: blur(15px);
+  border-radius: 25px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.swal2-image {
+  object-fit: contain;
+}
+
+.swal2-title,
+.swal2-content {
+  color: azure !important;
+}
+
+.swal2-popup {
+  border-radius: 15px !important;
+}
+
+header h2 {
+  font-family: 'Pacifico';
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h4 {
+  font-family: 'Pacifico';
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  header h2 {
+    font-family: 'Pacifico';
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  header h4 {
+    font-family: 'Pacifico';
+    text-align: center;
+    padding: 15px;
+  }
+
+  #no {
+    position: absolute;
+    display: inline-block;
+    left: 7%;
+    top: 40vh;
+    font-size: 14px;
+    padding: 3px;
+    -webkit-transition: all 0.1s ease-out;
+  }
+
+  #yes {
+    position: absolute;
+    display: inline-block;
+    left: 58%;
+    top: 40vh;
+    font-size: 14px;
+    padding: 3px;
+    -webkit-transition: all 0.3s ease-out;
+  }
+}
+
+.swal2-backdrop-show {
+  background-size: 200px 100px !important;
+}
