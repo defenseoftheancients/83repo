@@ -1,19 +1,19 @@
 const CONFIG = {
-    introTitle: 'Babe à!',
-    introDesc: `Trái đất vốn lạ thường
-    Mà sao em cứ đi nhầm đường
-    Lạc vào tim anh lẻ loi
-    Đằng sau chữ yêu đây là thương`,
+    introTitle: 'Chào đằng ấy!',
+    introDesc: `Trái đất vốn lạ thường.
+    Sao người xinh đẹp tuyệt vời như bạn
+    cứ đi nhầm đường lạc vào tim mình lẻ loi thế này!
+    `,
     btnIntro: 'Bấm vào đây để tiếp tục nhé 🥰',
-    title: 'Phải chăng em đã yêu ngay từ cái nhìn đầu tiên 😙',
-    desc: 'Phải chăng em đã say ngay từ lúc thấy nụ cười ấy ',
-    btnYes: 'Vẫn cứ là thích anh <33',
-    btnNo: 'Không, Anh trai à :3',
-    question:'Trên thế giới hơn 7 tỉ người mà sao em lại yêu anh <3',
-    btnReply: 'Gửi cho anh <3',
-    reply: 'Yêu thì yêu mà không yêu thì yêu <33333333',
-    mess: 'Anh biết mà 🥰. Yêu em nhiều nhiều 😘😘',
-    messDesc: 'Tối nay 7h anh qua đón nhé công chúa.',
-    btnAccept: 'Okiiiii lun <3',
-    messLink: 'http://fb.com' //link mess của các bạn. VD: https://m.me/nam.nodemy
+    title: 'Chúc mừng các chị, các cô, các mẹ,... nhân ngày quốc tế phụ nữ mùng 8/3. Chúc nửa kia thế giới luôn xinh đẹp và mạnh khỏe. 😙',
+    desc: 'Phải chăng mìn đã say ngay từ lúc thấy nụ cười ấy. Bạn có yêu bản thân mình không ? ',
+    btnYes: 'Tất nhiên rồi <33',
+    btnNo: 'Không, mình yêu bạn cơ :3',
+    question:'Khen mình gì đó để được đến màn cuối 😘',
+    btnReply: 'Gửi cho mình 🥰',
+    reply: 'Đẳng cấp ga lăng phong độ <33333333',
+    mess: '',
+    messDesc: '',
+    btnAccept: '',
+    messLink: 'http://fb.com'
 }
